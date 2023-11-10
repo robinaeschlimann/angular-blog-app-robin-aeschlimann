@@ -7,7 +7,7 @@ import { environment } from '../../../environments/environment';
     AuthModule.forRoot({
       config: {
         authority:
-          'https://d-cap-keyclaok.kindbay-711f60b2.westeurope.azurecontainerapps.io/realms/blog',
+          'https://d-ca-blog-keycloak.livelybush-bf381778.switzerlandnorth.azurecontainerapps.io/realms/blog',
         redirectUrl: window.location.origin,
         postLogoutRedirectUri: window.location.origin,
         clientId: 'spa-blog',
